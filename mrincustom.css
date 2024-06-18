@@ -1,0 +1,90 @@
+.header-top{
+	position: sticky;
+    top: 117px;
+    top: 0px;
+    z-index: 9;
+}
+
+.testimoniel-item{
+	position: absolute;
+	width: 100%; 
+	opacity: 0;
+}
+
+.test-img{
+	height: 200px !important;
+    width: 200px !important;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.frame{
+	width: 32%;
+    cursor: zoom-in;
+    border: 7px inset #999;
+}
+
+.footer {
+    background: #071119;
+    padding: 0em 0;
+    text-align: center;
+}
+
+.footer-link{
+    color: #f58703;
+    font-size: 15px;
+    text-align: left;
+}
+
+.grid-top {
+    text-align: center;
+    min-height: 150px;
+}
+
+.glyphicon.glyphicon-home ,.glyphicon.glyphicon-time,.glyphicon.glyphicon-cog,
+.glyphicon.glyphicon-lock,.glyphicon-eye-open, .glyphicon.glyphicon-plane, .glyphicon.glyphicon-list-alt,.glyphicon.glyphicon-sunglasses,.glyphicon.glyphicon-check,.glyphicon.glyphicon-briefcase{
+  font-size: 1.5em;
+  color: #FFF;
+  background: #1b3e5c;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.welcome p {
+    font-size: 1em;
+    color: #171616;
+}
+
+img~p {
+    padding: 1px;
+}
+
+.red ul li a {
+    text-decoration: none;
+    color: #846508;
+    font-size: 1em;
+    margin: 0.4em 0;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.top-content p {
+    font-size: 1em;
+    color: #757070;
+    line-height: 1.9em;
+    font-weight: 600;
+}
+
+
+.desktop{
+    display:flex;justify-content: center;align-items: center;margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+  .desktop{
+    display:block;justify-content: center;align-items: center;margin-bottom: 10px;
+  }  
+}
